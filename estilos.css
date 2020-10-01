@@ -1,0 +1,293 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+     font-family: 'Century Gothic';
+     font-size:16px;
+}
+
+header{
+    width: 100%;
+    height:650px;
+    background-image: url(skewed.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+}
+header.textos{
+    margin-top: 152px;
+}
+header .titulo{
+    font-size: 75px;
+}
+
+header .subtitulo{
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.boton{
+    display: inline-block;
+    padding: 6px;
+    width: 128px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 19px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 16px;
+}
+.sesgoabajo{
+    z-index: 10;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-width: 0 0 35vh 100vw;
+    border-style: solid;
+    border-color: transparent transparent #fff transparent;
+}
+.sesgoarriba{
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-width:35vh 100vw 0 0;
+    border-style: solid;
+    border-color: #fff transparent transparent transparent;
+}
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    padding: 52px 0;
+}
+.Perfil-profesional{
+    text-align: center;
+    font-size:56px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.parrafo{
+    margin-bottom: 13px;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 24px;
+    color: rgb(24,16,16);
+}
+
+.galeria{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+}
+
+.imagenes {
+    width: 50%;
+    height:500px;
+    overflow: hidden;
+    position: relative;
+}
+
+.imagenes img{
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+}
+
+.encina div{
+    position: relative;
+    display: block;
+    top: 46%;
+    width: 40%;
+    height: 5%;
+    background: #fff;
+    margin: auto;
+}
+
+.cards{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card{
+    margin: 20px 0;
+    width: 30%;
+    height: 50px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 0px 4px 0 rgba(24, 3, 119, 0.945);
+
+}
+
+.sobre-mi{
+    text-align: center;
+    font-size:56px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.slogan{
+    text-align: center;
+    font-size:25px;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+.cards img{
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    border-radius:100%;
+}
+
+.fondo{
+    height: 900px;
+    position: relative;
+    background-image: url(fondo.png);
+    overflow: hidden;
+    background-attachment: fixed;
+    background-position: center;
+    padding-top:130px;
+}
+
+.sesgoarriba{
+    z-index: 10;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-width: 0 0 35vh 100vw;
+    border-style: solid;
+    border-color: transparent transparent #fff transparent;
+}
+
+.sesgoabajo-unico{
+    z-index: 10;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-width: 0 0 35vh 100vw;
+    border-style: solid;
+    border-color: transparent transparent #ffffff transparent;
+}
+
+.contacto{
+    height: 900px;
+    position: relative;
+    background-image: url(Contacto.jpg);
+    overflow: hidden;
+    background-attachment: fixed;
+    background-position: center;
+    padding-top:130px;
+}
+
+.titulo-contacto{
+    text-align: center;
+    font-size:75px;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+
+.subtitulo-contacto{
+    text-align: center;
+    font-size:38px;
+    margin-bottom: 10px;
+    font-weight: 450;
+}
+
+footer{
+    background: #a5a2a2;
+    height:auto;
+}
+
+.titulo-footer{
+    text-align: center;
+    font-size:38px;
+    margin-bottom: 10px;
+    font-weight: 450;
+}
+
+.subtitulos-comunicadora{
+    text-align: center;
+    font-size:18px;
+    margin-bottom: 30px;
+    font-weight: 450;
+}
+
+form{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+input[type="text"], input[type="gmail"]{
+    display: inline-block;
+    width: 48%;
+    padding: 13px;
+    border: none;
+    color: #000000;
+    font-family: 'century gothic';
+    background: rgb(247, 247, 232);
+    margin-bottom: 16px;
+    border-top: 5px solid rgb(247, 247, 232);
+}
+input[type="text"]:focus, input[type="gmail"]:focus, textarea:focus{
+    border-top: 5px solid rgb(8, 8, 8);
+}
+textarea{
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 200px;
+    min-height: 200px;
+    background: rgb(247, 247, 232);
+    padding: 13px;
+    border: none;
+    color: #000000;
+    font-family: 'century gothic';
+    margin-bottom: 16px;
+}
+
+input[type="submit"]{
+    display: inline-block;
+    padding: 13px;
+    border: none;
+    color: #000000;
+    background: rgb(247, 247, 232);
+    width: 96px;
+}
+
+@media screen and (max-width:900px){
+    .card{
+        width: 45%;
+    }
+}
+@media screen and (max-width:610px){
+    header.textos{
+        margin-top:130px;
+    }
+    header .titulo{
+        font-size: 75px;
+    }
+@media screen and (max-width:380px){
+    header. textos{
+    margin-top: 100px;
+    }
+}
+    
+}
+}
